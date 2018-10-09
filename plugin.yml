@@ -6,6 +6,6 @@ author: Wolfkid200444
 description: Rule UI plugin Made by Wolfkid20044
 
 commands:
-        rules:
-           usage: /rules
-              description: §6Rules of the Server
+    rules:
+      usage: /rules
+          description: §6Rules of the Server
