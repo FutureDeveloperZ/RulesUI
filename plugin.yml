@@ -1,10 +1,10 @@
 name: WolfGangRuleUI
 main: WolfGangRule/Rules
-version: 0.0.1
+version: 0.0.2
 api: 3.0.0, 3.0.1, 3.0.2, 3.0.3
 author: Wolfkid200444
 description: Rule UI plugin Made by Wolfkid20044
 
   commands:
-           rules:
-               description: §6Rules of the Server
+        rules:
+         description: §6Rules of the Server
