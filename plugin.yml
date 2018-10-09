@@ -1,5 +1,5 @@
 name: WolfGangRuleUI
-main: WolfGangRule/Rules
+main: WolfGangRule\Rules
 version: 0.0.3
 api: 3.0.0
 author: Wolfkid200444
