@@ -59,6 +59,7 @@ class Rules extends PluginBase implements Listener {
 	$form->addLabel("§e4. Dont Team in SkyWars or Spleef");
 	$form->addLabel("§e5. Dont Curse or Talk SOS words");
 	$form->addLabel("§e6. Dont Do Bad Stuff");
+	$form->addLabel("&e7. Dont be a brat");
 	$form->sendToPlayer($player);
     }
 }
