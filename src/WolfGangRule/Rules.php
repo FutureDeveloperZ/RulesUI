@@ -14,7 +14,7 @@
 **/
 
 declare(strict_types=1);
-namespace Rules;
+namespace WolfGangRule;
 
 // PocketMine
 use pocketmine\Player;
