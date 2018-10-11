@@ -47,9 +47,8 @@ class Rules extends PluginBase implements Listener {
 	
     public function mainForm($player): void {
         $formapi = $this->getServer()->getPluginManager()->getPlugin("FormAPI");
-	$form = $formapi->createSimpleForm(function (Player $player, $data){
-           switch ($data) {
-           }
+	$form = $formapi->createCustomForm(function (Player $player, $data){
+           $result = $data[0];
 	});
 	$form->setTitle("§l§eRules ");
 	$form->setContent("§o§aPlease Read them Carefully!");
