@@ -53,13 +53,13 @@ class Rules extends PluginBase implements Listener {
 	});
 	$form->setTitle("§l§eRules ");
 	$form->setContent("§o§aPlease Read them Carefully!");
-	$form->addLabel("§e1. Dont Hack");
-	$form->addLabel("§e2. Dont Cheat");
-	$form->addLabel("§e3. Dont be rude to people or STAFF ");
-	$form->addLabel("§e4. Dont Team in SkyWars or Spleef");
-	$form->addLabel("§e5. Dont Curse or Talk SOS words");
-	$form->addLabel("§e6. Dont Do Bad Stuff");
-	$form->addLabel("&e7. Dont be a brat");
+	$form->addLabel("§e1. Don't hack!");
+	$form->addLabel("§e2. Don't cheat!");
+	$form->addLabel("§e3. Don't be rude to people or STAFF!");
+	$form->addLabel("§e4. Don't team in SkyWars or Spleef!");
+	$form->addLabel("§e5. Don't curse or talk SOS words!");
+	$form->addLabel("§e6. Don't do bad stuff");
+	$form->addLabel("&e7. Don't be a brat");
 	$form->sendToPlayer($player);
     }
 }
