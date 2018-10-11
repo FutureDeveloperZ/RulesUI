@@ -51,7 +51,7 @@ class Rules extends PluginBase implements Listener {
            $result = $data[0];
 	});
 	$form->setTitle("§l§eRules ");
-	$form->setContent("§o§aPlease Read them Carefully!");
+	$form->addLabel("§o§aPlease Read them Carefully!");
 	$form->addLabel("§e1. Don't hack!");
 	$form->addLabel("§e2. Don't cheat!");
 	$form->addLabel("§e3. Don't be rude to people or STAFF!");
